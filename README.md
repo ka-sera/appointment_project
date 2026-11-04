@@ -1,4 +1,4 @@
-# Attendance and Residence Classification
+ Attendance and Residence Classification
 
 This project prepares student attendance data and uses it to classify whether a
 student lives **on campus** or **off campus**. The complete workflow is
@@ -31,14 +31,14 @@ visualization.
 
 ## What the notebook does
 
-### 1. Load and inspect the source data
+ 1. Load and inspect the source data
 
 The notebook loads both Excel files with pandas and prints their dimensions:
 
 - On-campus: 905 rows and 84 columns
 - Off-campus: 3,890 rows and 83 columns
 
-### 2. Remove identifying fields
+2. Remove identifying fields
 
 The `Name` and `Admission No` columns are removed when present. This prevents
 direct student identifiers from being used as model inputs.
